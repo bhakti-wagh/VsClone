@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 6vh;
+    background: rgb(33, 32, 32);
+    display: flex;
+}
+
+.navdiv1{
+    width: 35%;
+    display: flex;
+    /* border: 2px solid tomato; */
+    justify-content: space-around;
+    align-items: center;
+     color: #cccccc;
+    
+}
+img{
+    width: 30px;
+}
+
+.navdiv2{
+    width: 50%;
+
+    /* border: 2px  solid orangered; */
+    display: flex;
+     align-items: center;
+     justify-content: center ;
+       gap: 12px;
+}
+
+.navp2{
+       font-size: 20px;
+        color: #9da1a6;
+         display: flex;
+    align-items: center;
+}
+
+ input{
+    width: 500px;
+    height: 34px;
+    background-color: #1f1f1f;
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+    color: #cccccc;
+    font-size: 14px;
+    padding: 0 14px;
+    outline: none;
+}
+
+.navdiv2 input::placeholder{
+    color: #8b8b8b;
+}
+
+.navdiv3{
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+.icon{
+    color: #cfcfcf;
+    font-size: 18px;
+}
+
+.divider{
+    width: 1px;
+    height: 18px;
+    background-color: #555;
+}
+
+/* main section css */
+main{
+    display: flex;
+     height: 90vh;  
+    width: 100%;
+   
+   
+}
+
+
+aside{
+    border: 1px solid ;
+    height: 94vh;
+    width: 3%;
+    background: rgb(21, 20, 20);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.div1{
+     /* border: 2px solid red;   */
+    height: 60%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    
+}
+.opt{
+    height: 25px;
+    width: 25px;
+    /* border: 2px solid orange; */
+}
+img{
+    width: 25px;
+}
+.div2{
+    /* border: 2px solid blue; */
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.optg{
+    height: 25px;
+    width: 25px;
+    /* border: 2px solid orange; */
+}
+
+.asidesectioniframe{
+width: 96%;
+height: 94vh;
+background: rgb(41,41,41);
+border-right: 1px solid rgb(69,69,69);
+
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+

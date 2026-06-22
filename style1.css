@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+main{
+    border: 2px solid;
+    display: flex;
+    height: 200px;
+    align-items: start;
+    flex-wrap: wrap;
+
+}
+
+div{
+    background: red;
+   /* min-width: 50%; */
+   width: 45%;
+}
+span{
+    background: aqua;
+     /* min-width: 50%; */
+     width: 45%;
+}
+strong{
+    background: mediumblue;
+    /* min-width: 50%; */
+    width: 45%;
+}
